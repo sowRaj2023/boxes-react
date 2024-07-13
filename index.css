@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.bg-container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.boxes-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+   
+   
+}
+.small-box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.medium-box{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+
+.large-box{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.box{
+display: flex;
+justify-content: center;
+margin-right: 30px;
+}
